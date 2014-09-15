@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+@media screen and (orientation:portrait){
+
+html, body { background-image: url(background_iphone.png); background-size: 480px 480px; background-position: top; background-repeat: no-repeat; background-color: #d5d3d4; width: 320px; margin: 0px;}
+	
+#bottom_wrapper { overflow: hidden; margin-left: auto; margin-right: auto; height: auto; width: 300px; clear: left; text-align: justify; padding-bottom: 20px;}
+
+#main_wrapper { float: left; width: 320px; margin-right: auto; margin-left: auto; padding: 0px;}
+
+#right_wrapper { overflow: hidden; margin-right: auto; margin-left: auto; height: auto; width: 300px; padding-bottom: 10px; text-align: center;}
+
+#thumb_image { width: 200px;}
+
+#left_wrapper { width: 200px; height: auto; margin-right: auto; margin-left: auto; padding-top: 20px; padding-bottom: 10px;}
+
+}
+
+@media screen and (orientation:landscape){
+
+html, body { background-image: url(background_iphone.png); background-size: 480px 480px; background-position: top; background-repeat: no-repeat; background-color: #d5d3d4; width: 480px; margin: 0px;}
+
+#bottom_wrapper { overflow: hidden; margin-right: auto; margin-left: auto; height: auto; margin: 0px; width: 300px; text-align: justify; padding-right: 10px; padding-left: 10px; padding-bottom: 10px;}
+
+#main_wrapper { float: left; width: 480px; margin-right: auto; margin-left: auto; padding: 0px;}
+
+#right_wrapper { float: left; overflow: hidden;	 margin-right: auto; margin-left: auto; height: auto; width: 300px; text-align: center; padding-right: 10px; padding-left: 10px; padding-top: 10px;}
+
+#thumb_image { width: 140px;}
+
+#left_wrapper { float: left; width: 140px; height: auto; padding-left: 20px; padding-top: 10px;}
+
+}
+
+h1 { text-shadow: 1px 1px 1px #ccc, 2px 2px 4px grey; font-family: Arial, Helvetica, sans-serif; font-size: 1.3em; font-weight: strong; color: #333; text-decoration: none; margin: 0px; padding: 0px;}
+
+h2 { font-family: Arial, Helvetica, sans-serif; font-size: 1em; font-weight: normal; color: #333; text-decoration: none; margin: 0px; padding: 0px;}
+
+h3 { font-family: Arial, Helvetica, sans-serif; font-size: 0.85em; font-weight: normal; color: #333; text-decoration: none; margin: 0px; padding: 0px; text-align: center;}
+
+p { font-family: Arial, Helvetica, sans-serif; font-size: 0.85em; font-weight: normal; color: #333; text-decoration: none; margin: 0px; padding: 0px;}
+
+.logo_wrapper { float: left; width: 100%; height: auto; margin-right: auto; margin-left: auto; padding-bottom: 10px;}
+
+#logo { width: 167px; height: 50px; background-image: url(logo.png); background-size: 167px 50px; margin-right: auto; margin-left: auto;}

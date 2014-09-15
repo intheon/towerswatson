@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+@media screen and (orientation:portrait){
+
+*
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body
+{ 
+	background-image: url(img/bg_portrait_ipad.png); 
+	background-size: 768px 1024px;
+
+}
+#masthead
+{
+	height:87px;
+	position:absolute;
+    width:100%;
+    visibility: visible;
+    z-index:300;
+    margin:0px;
+    padding:0px;
+}
+.btn
+{
+	margin-left:256px;
+	padding:4%;
+}
+#main 
+{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+    cursor: hand;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+#pOne
+{
+    background-image: url(p1.png);
+    background-size: 1024px ;
+    width:1024px;
+}
+#pTwo
+{
+    background-image: url(p2.png);
+    background-size: 1024px ;
+    width:1024px;
+}
+#pThree
+{
+    background-image: url(p3.png);
+    background-size: 1024px ;
+    width:1024px;
+}
+
+} /************************ END PORTRAIT *******************************/
+
+@media screen and (orientation:landscape){
+
+} /************************ END LANDSCAPE ******************************/

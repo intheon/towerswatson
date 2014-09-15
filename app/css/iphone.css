@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+@media screen and (orientation:portrait){
+
+html, body { background-image: url(background_ipad.png); background-size: 1024px 1024px;}
+
+#bottom_wrapper { overflow: hidden; padding-right: 50px; padding-left: 50px; height: auto; margin: 0px; padding-top: 50px; width: auto; padding-bottom: 50px; clear: left;}
+
+}
+
+@media screen and (orientation:landscape){
+
+html, body { background-image: url(background_ipad.png); background-size: 1024px 1024px;}
+
+#bottom_wrapper { overflow: hidden; padding-right: 50px; height: auto; margin: 0px; padding-top: 50px; width: auto; padding-bottom: 50px;}
+
+}
+
+#main_wrapper { float: left; width: auto; margin: 0px; padding: 0px;}
+
+#right_wrapper { overflow: hidden; padding-right: 50px; height: auto; margin: 0px; padding-top: 100px; width: auto; padding-bottom: 0px;}
+
+#left_wrapper { float: left; max-width: 400px; height: auto; padding-right: 25px; padding-bottom: 0px; padding-left: 50px; padding-top: 20px;}
+
+h1 { text-shadow: 1px 1px 1px #ccc, 2px 2px 4px grey; font-family: Arial, Helvetica, sans-serif; font-size: 2.8em; font-weight: normal; color: #333; text-decoration: none; margin: 0px; padding: 0px;}
+
+h2 { font-family: Arial, Helvetica, sans-serif; font-size: 1.2em; font-weight: normal; color: #333; text-decoration: none; margin: 0px; padding: 0px;}
+
+h3 { font-family: Arial, Helvetica, sans-serif; font-size: 0.85em; font-weight: normal; color: #333; text-decoration: none; margin: 0px; padding: 0px; text-align: center;}
+
+p { font-family: Arial, Helvetica, sans-serif; font-size: 0.85em; font-weight: normal; color: #333; text-decoration: none; margin: 0px; padding: 0px;}
+
+.logo_wrapper { float: left; width: 100%; height: auto; margin-right: auto; margin-left: auto;}
+
+#logo { width: 333px; height: 100px; background-image: url(logo.png); background-size: 333px 100px; margin-right: auto; margin-left: auto;}
