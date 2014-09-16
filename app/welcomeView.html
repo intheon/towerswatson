@@ -7,31 +7,96 @@
 
 <body>
 
-<div id="masthead">
-		<img src="img/masthead.png" width="100%">
-</div>
+<div id="masthead"><img src="img/mh_portrait_ipad.png" width="100%"></div>
 
 <div id="main">
-		<div class="first dragend-page" id="pOne">
-			    <div class="btn">
-            <img src="img/fullContent.png" width="42%">
-          </div>
-          <div class="btn">
-            <img src="img/myDownloads.png" width="42%">
-          </div>
-          <div class="btn">
-            <img src="img/registerMe.png" width="42%">
-          </div>
-		</div>
-		<div class="middle dragend-page" id="pTwo">
-		</div>
-		<div class="last dragend-page" id="pThree">
+
+    <!-- FIRST PANEL -->
+		<div class="dragend-page" id="pOne">
+
+      <!-- LANDSCAPE INTRO IMG -->
+      <div class="landscape_intro">
+          <img src="img/landscape_intro.png" width="100%">
+      </div>
+
+      <!-- FULL CONTENT BUTTON -->
+			<div class="btn">
+        <a href="http://google.com">
+          <img src="img/fullContent.png" width="100%">
+        </a>
+      </div>
+
+      <!-- MY DOWNLOADS BUTTON -->
+      <div class="btn">
+        <a href="http://yahoo.com">
+          <img src="img/myDownloads.png" width="100%">
+        </a>
+      </div>
+
+      <!-- REGISTER ME BUTTON -->
+      <div class="btn">
+        <a href="http://microsoft.com">
+          <img src="img/registerMe.png" width="100%">
+        </a>
+      </div>
+
 		</div>
 
-	</div>
+    <!-- SECOND PANEL -->
+		<div class="dragend-page" id="pTwo">
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+      <!-- HEADER -->
+      <div class="subHeader">
+        <h1>Benefits Hot Topics</h1>
+        <img src="img/rss.png" width="13%" id="rssImg">
+      </div>
+
+      <!-- PARSED XML INJECTED HERE -->
+      <div id="rssPanelOne">
+        <p>Device Offline. Please connect to the Internet to view this content</p>
+      </div>
+
+    </div>
+
+    <!-- THIRD PANEL -->
+    <div class="dragend-page" id="pThree">
+
+      <!-- HEADER -->
+      <div class="subHeader">
+        <h1>Trustee Briefing</h1>
+        <img src="img/rss.png" width="13%" id="rssImg">
+      </div>
+
+      <!-- PARSED XML INJECTED HERE -->
+      <div id="rssPanelTwo">
+        <p>Device Offline. Please connect to the Internet to view this content</p>
+      </div>
+
+    </div>
+
+    <div class="dragend-page" id="pFour">
+
+    <!-- HEADER -->
+    <div class="subHeader">
+        <h1>Useful Links</h1>
+        <img src="img/rss.png" width="13%" id="rssImg">
+    </div>
+
+    <!-- PARSED XML INJECTED HERE -->
+    <div id="rssPanelThree_One">
+      <p>Device Offline. Please connect to the Internet to view this content</p>
+    </div>
+    <div id="rssPanelThree_Two">
+      <p>Device Offline. Please connect to the Internet to view this content</p>
+    </div>
+
+</div>
+
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/dragend.js"></script>
 <script type="text/javascript" src="js/engine.js"></script>
+<script type="text/javascript" src="js/zrss.js"></script>
+
 </body>
 </html>

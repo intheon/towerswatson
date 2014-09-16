@@ -2,12 +2,6 @@
 
 @media screen and (orientation:portrait){
 
-*
-{
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
 body
 { 
 	background-image: url(img/bg_portrait_ipad.png); 
@@ -23,11 +17,13 @@ body
     z-index:300;
     margin:0px;
     padding:0px;
+
 }
 .btn
 {
-	margin-left:256px;
-	padding:4%;
+    width:20%;
+	margin-left:33%;
+	padding:6%;
 }
 #main 
 {
@@ -41,27 +37,126 @@ body
     cursor: -webkit-grab;
     cursor: grab;
 }
-#pOne
-{
-    background-image: url(p1.png);
-    background-size: 1024px ;
-    width:1024px;
-}
-#pTwo
-{
-    background-image: url(p2.png);
-    background-size: 1024px ;
-    width:1024px;
-}
-#pThree
-{
-    background-image: url(p3.png);
-    background-size: 1024px ;
-    width:1024px;
+
+.subHeader
+{   
+    padding:3%;
+    background-color:#F8F8F8;
+    min-height:7%;
 }
 
-} /************************ END PORTRAIT *******************************/
+.landscape_intro{
+    display:none;
+}
+
+.rssRow {
+    color:#3186B2;
+    padding:4%;
+    margin:4%;
+    list-style: none;
+}
+
+}
+/************************ END PORTRAIT *******************************/
 
 @media screen and (orientation:landscape){
 
+body
+{ 
+    background-image: url(img/bg_landscape_ipad.png); 
+    background-size: 1024px 768px;
+
+}
+#masthead
+{
+    height:87px;
+    position:absolute;
+    width:100%;
+    visibility: visible;
+    z-index:300;
+    margin:0px;
+    padding:0px;
+
+}
+.btn
+{
+    margin-top:16%;
+    margin-left:11%;
+    padding:2%;
+    width:13%;
+    float:left;
+}
+#main 
+{
+    position: absolute;
+    top: 114px;
+    left: 0px;
+    width: 100%;
+    visibility: hidden;
+    cursor: hand;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+.subHeader
+{   
+    padding:3%;
+    background-color:#F8F8F8;
+    min-height:10%;
+}
+
+.landscape_intro{
+    position: absolute;
+    display:block;
+    margin:0.5%;
+
+}
+
+.rssRow {
+    color:#3186B2;
+    padding:2%;
+    margin:2%;
+    list-style: none;
+}
+
 } /************************ END LANDSCAPE ******************************/
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h4 a{
+    color:#3186B2;
+    text-decoration: none;
+    font-size:1.5em;
+    font-family:arial;
+}
+p a{
+    color:#333333;
+    text-decoration: none;
+    font-size:1.3em;
+    font-family:arial;
+}
+
+h1
+{
+    font-family:arial;
+    color:#333333;
+    float:left;
+    font-size:2.25em;
+}
+.rssRow div{
+display:none;
+}
+
+#rssImg
+{
+    float:right;
+}
+
+
